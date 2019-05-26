@@ -1,0 +1,143 @@
+[
+    {
+        "model": "auth.User",
+        "pk": 1,
+        "fields": {
+            "username": "Examiner 1",
+            "password": "ExaminerPassword1"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 2,
+        "fields": {
+            "username": "Examiner 2",
+            "password": "ExaminerPassword2"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 3,
+        "fields": {
+            "username": "Examiner 3",
+            "password": "ExaminerPassword3"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 4,
+        "fields": {
+            "username": "Examinee 1",
+            "password": "ExamineePassword1"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 5,
+        "fields": {
+            "username": "Examinee 2",
+            "password": "ExamineePassword2"
+        }
+    },
+    {
+        "model": "auth.User",
+        "pk": 6,
+        "fields": {
+            "username": "Examinee 3",
+            "password": "ExamineePassword3"
+        }
+    },
+    {
+        "model": "api.exam",
+        "pk": 1,
+        "fields": {
+            "name": "Ongoing exam 1",
+            "examiner": 1,
+            "examinee": 4,
+            "archived_on": null,
+            "grade": null
+        }
+    },
+    {
+        "model": "api.exam",
+        "pk": 2,
+        "fields": {
+            "name": "Ongoing exam 2",
+            "examiner": 2,
+            "examinee": 5,
+            "archived_on": null,
+            "grade": null
+        }
+    },
+    {
+        "model": "api.exam",
+        "pk": 3,
+        "fields": {
+            "name": "Archived exam 1",
+            "examiner": 3,
+            "examinee": 6,
+            "archived_on": "2019-05-26 09:51:37.033667+00:00",
+            "grade": 5
+        }
+    },
+    {
+        "model": "api.task",
+        "pk": 1,
+        "fields": {
+            "exam": 1,
+            "question": "Radio, what's new?",
+            "answer": null,
+            "points": null
+        }
+    },
+    {
+        "model": "api.task",
+        "pk": 2,
+        "fields": {
+            "exam": 1,
+            "question": "So what's wrong with taking the back streets?",
+            "answer": null,
+            "points": null
+        }
+    },
+    {
+        "model": "api.task",
+        "pk": 2,
+        "fields": {
+            "exam": 2,
+            "question": "My world's on fire, how about yours?",
+            "answer": "That's the way I like it and I never get bored",
+            "points": null
+        }
+    },
+    {
+        "model": "api.task",
+        "pk": 3,
+        "fields": {
+            "exam": 2,
+            "question": "Somebody once asked could I spare some change for gas?",
+            "answer": "I need to get myself away from this place",
+            "points": null
+        }
+    },
+    {
+        "model": "api.task",
+        "pk": 4,
+        "fields": {
+            "exam": 3,
+            "question": "What is love?",
+            "answer": "Baby don't hurt me",
+            "points": 10
+        }
+    },
+    {
+        "model": "api.task",
+        "pk": 5,
+        "fields": {
+            "exam": 3,
+            "question": "So what is right and what is wrong?",
+            "answer": "Gimme a sign",
+            "points": 5
+        }
+    }
+]

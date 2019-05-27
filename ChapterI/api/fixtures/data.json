@@ -3,48 +3,54 @@
         "model": "auth.User",
         "pk": 1,
         "fields": {
-            "username": "Examiner 1",
-            "password": "ExaminerPassword1"
+            "username": "Examiner1",
+            "email": "Examiner1@examiner.com",
+            "password": "pbkdf2_sha256$150000$ZK9NpeLJrtNh$ibygCzlQQ46DYGR6L2iTptcgjOOBBtMrfQk3Po/EkDs="
         }
     },
     {
         "model": "auth.User",
         "pk": 2,
         "fields": {
-            "username": "Examiner 2",
-            "password": "ExaminerPassword2"
+            "username": "Examiner2",
+            "email": "Examiner2@examiner.com",
+            "password": "pbkdf2_sha256$150000$ZK9NpeLJrtNh$ibygCzlQQ46DYGR6L2iTptcgjOOBBtMrfQk3Po/EkDs="
         }
     },
     {
         "model": "auth.User",
         "pk": 3,
         "fields": {
-            "username": "Examiner 3",
-            "password": "ExaminerPassword3"
+            "username": "Examiner3",
+            "email": "Examiner3@examiner.com",
+            "password": "pbkdf2_sha256$150000$ZK9NpeLJrtNh$ibygCzlQQ46DYGR6L2iTptcgjOOBBtMrfQk3Po/EkDs="
         }
     },
     {
         "model": "auth.User",
         "pk": 4,
         "fields": {
-            "username": "Examinee 1",
-            "password": "ExamineePassword1"
+            "username": "Examinee1",
+            "email": "Examinee1@examinee.com",
+            "password": "pbkdf2_sha256$150000$ZK9NpeLJrtNh$ibygCzlQQ46DYGR6L2iTptcgjOOBBtMrfQk3Po/EkDs="
         }
     },
     {
         "model": "auth.User",
         "pk": 5,
         "fields": {
-            "username": "Examinee 2",
-            "password": "ExamineePassword2"
+            "username": "Examinee2",
+            "email": "Examinee2@examinee.com",
+            "password": "pbkdf2_sha256$150000$ZK9NpeLJrtNh$ibygCzlQQ46DYGR6L2iTptcgjOOBBtMrfQk3Po/EkDs="
         }
     },
     {
         "model": "auth.User",
         "pk": 6,
         "fields": {
-            "username": "Examinee 3",
-            "password": "ExamineePassword3"
+            "username": "Examinee3",
+            "email": "Examinee3@examinee.com",
+            "password": "pbkdf2_sha256$150000$ZK9NpeLJrtNh$ibygCzlQQ46DYGR6L2iTptcgjOOBBtMrfQk3Po/EkDs="
         }
     },
     {

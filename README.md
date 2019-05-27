@@ -16,8 +16,16 @@ $ cd .\ChapterI\
 $ pip install -r requirements.txt
 $ python3 manage.py makemigrations
 $ python3 manage.py migrate
-$ python3 manage.py loaddata data.json # Optional fixtures
+$ python3 manage.py loaddata data.json # All passwords for users are 'password'
 $ python3 manage.py runserver
+```
+
+## Running with docker
+
+```sh
+$ cd .\ChapterI\
+$ docker build -t skychallange .
+$ docker run -p 8000:8000 -i -t skychallange
 ```
 
 ## Running the tests

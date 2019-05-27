@@ -7,10 +7,11 @@ class Exam(models.Model):
     
     Attributes:
         name: Name of an exam
-        examiner: Creator of an exam.
-        archived: If an exam is archived it cannot be changed.
+        examiner: Creator (owner) of an exam.
+        examinee: User assigned to the exam
         created_on: Date when exam was created
         archived_on: Date when exam was archived
+        grade: Grade assigned by examiner.
     """
 
     GRADES = [(5, "A"), (4, "B"), (3, "C"), (2, "D"), (1, "F")]
@@ -33,8 +34,9 @@ class Task(models.Model):
     
     Attributes:
         exam: Exam that the task is assigned to
-        question: 
-        content: Content of a task
+        question: Question (content) of the task.
+        answer: Solution to the task
+        points: Points gained for the task.
     """
 
     exam = models.ForeignKey(Exam, on_delete=models.CASCADE, related_name="tasks")
